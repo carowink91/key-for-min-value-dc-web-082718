@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
   end
 
   name_hash.collect do |key, value|
-    keysArray.push()
+    keysArray.push(key)
 
   index = valuesArray.min
 
