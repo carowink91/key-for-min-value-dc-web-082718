@@ -10,6 +10,8 @@ def key_for_min_value(name_hash)
 
   index = valuesArray.min
 
-  name_hash.keys[index]
-
+  if name_hash.length == 0
+    return nil
+  elsif name_hash.length > 0
+    return name_hash.keys[index]
 end
