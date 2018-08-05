@@ -14,4 +14,5 @@ def key_for_min_value(name_hash)
     return nil
   elsif name_hash.length > 0
     return name_hash.keys[index]
+  end
 end
