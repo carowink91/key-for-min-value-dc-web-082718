@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
     keysArray.push(key)
   end
 
-  index = valuesArray.min.index
+  index = valuesArray.min
 
   if name_hash.length == 0
     return nil
