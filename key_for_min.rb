@@ -11,12 +11,13 @@ def key_for_min_value(name_hash)
 
   name_hash.collect do |key, value|
     keysArray.push(key)
+  end
 
   index = valuesArray.min
 
   if name_hash.length == 0
     return nil
   elsif name_hash.length > 0
-    return name_hash.keys[index]
+    return keysArray[index]
   end
 end
